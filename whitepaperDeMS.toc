@@ -1,15 +1,16 @@
 \select@language {english}
 \contentsline {section}{Introduction}{1}{Doc-Start}
-\contentsline {section}{\numberline {1}Who We Are}{1}{section.1}
+\contentsline {section}{\numberline {1}Deep Micro Systems}{1}{section.1}
 \contentsline {paragraph}{Road Insecurity}{1}{paragraph*.1}
-\contentsline {paragraph}{Applications of computer vision}{2}{paragraph*.2}
-\contentsline {subsection}{\numberline {1.1}Low cost, effective devices}{2}{subsection.1.1}
+\contentsline {paragraph}{Applications of computer vision}{1}{paragraph*.2}
+\contentsline {subsection}{\numberline {1.1}Intelligent devices}{2}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Real time monitoring and data analysis}{2}{subsection.1.2}
 \contentsline {section}{\numberline {2}On the Edge Computing}{2}{section.2}
 \contentsline {subsection}{\numberline {2.1}Techniques}{2}{subsection.2.1}
 \contentsline {subsubsection}{\numberline {2.1.1}Subsubsection}{2}{subsubsection.2.1.1}
 \contentsline {subsubsection}{\numberline {2.1.2}Subsubsection}{3}{subsubsection.2.1.2}
 \contentsline {subsubsection}{\numberline {2.1.3}Subsubsection}{3}{subsubsection.2.1.3}
 \contentsline {section}{\numberline {3}Further applications}{3}{section.3}
-\contentsline {section}{Acknowledgments}{4}{section*.5}
-\contentsline {section}{References}{4}{section*.6}
+\contentsline {section}{Acknowledgments}{4}{section*.6}
+\contentsline {section}{References}{4}{section*.7}
 \contentsfinish 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  19 JUL 2018 11:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  19 JUL 2018 12:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -980,33 +980,37 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
 
 (./whitepaperDeMS.toc
-LaTeX Font Info:    Try loading font information for OMS+phv on input line 10.
+LaTeX Font Info:    Try loading font information for OMS+phv on input line 11.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsphv.fd
 File: omsphv.fd 
 )
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 10.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 11.
 )
 \tf@toc=\write4
 \openout4 = `whitepaperDeMS.toc'.
 
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-
-
-]
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 86.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 86.
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-<images/lucam_005.png, id=80, 1204.5pt x 1204.5pt>
+
+]
+<images/lucam_005.png, id=87, 1204.5pt x 1204.5pt>
 File: images/lucam_005.png Graphic file (type png)
  <use images/lucam_005.png>
 Package pdftex.def Info: images/lucam_005.png used on input line 96.
 (pdftex.def)             Requested size: 242.41745pt x 242.40282pt.
+
+<images/histogram.png, id=91, 578.16pt x 433.62pt>
+File: images/histogram.png Graphic file (type png)
+ <use images/histogram.png>
+Package pdftex.def Info: images/histogram.png used on input line 107.
+(pdftex.def)             Requested size: 242.41745pt x 181.80818pt.
 
 (./cto.tex
 Overfull \hbox (1.25534pt too wide) in paragraph at lines 27--27
@@ -1020,7 +1024,10 @@ Package Fancyhdr Warning: \headheight is too small (11.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2 <./images/lucam_005.png>])
+[2 <./images/lucam_005.png> <./images/histogram.png>])
+Underfull \vbox (badness 1838) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (11.0pt): 
  Make it at least 13.59999pt.
@@ -1036,32 +1043,29 @@ Package Fancyhdr Warning: \headheight is too small (11.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 127.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 127.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 136.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 136.
  (./whitepaperDeMS.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 127.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 127.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 136.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 136.
+Package rerunfilecheck Info: File `whitepaperDeMS.out' has not changed.
+(rerunfilecheck)             Checksum: B284CE32B7A2142A567B29F944FB0DB1;741.
 
 
-Package rerunfilecheck Warning: File `whitepaperDeMS.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package rerunfilecheck Info: Checksums for `whitepaperDeMS.out':
-(rerunfilecheck)             Before: B6D406039C3A6DB15D70F8D6621803A3;667
-(rerunfilecheck)             After:  298507369BCB02ADCEB0F82ECE9ECF8E;653.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 127.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 136.
  ) 
 Here is how much of TeX's memory you used:
- 11737 strings out of 493029
- 173159 string characters out of 6136234
- 410087 words of memory out of 5000000
- 14844 multiletter control sequences out of 15000+600000
- 66001 words of font info for 242 fonts, out of 8000000 for 9000
+ 11730 strings out of 493029
+ 173173 string characters out of 6136234
+ 410703 words of memory out of 5000000
+ 14846 multiletter control sequences out of 15000+600000
+ 65549 words of font info for 234 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,11n,51p,549b,458s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{subsection.2.2} has been referenced but does not 
-exist, replaced by a fixed one
+ 43i,11n,51p,606b,469s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{page.5} has been referenced but does not exist, r
+eplaced by a fixed one
 
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-
@@ -1071,10 +1075,10 @@ rw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/
 uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on whitepaperDeMS.pdf (4 pages, 1208178 bytes).
+Output written on whitepaperDeMS.pdf (4 pages, 1231912 bytes).
 PDF statistics:
- 143 PDF objects out of 1000 (max. 8388607)
- 114 compressed objects within 2 object streams
- 21 named destinations out of 1000 (max. 500000)
- 52318 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 152 PDF objects out of 1000 (max. 8388607)
+ 120 compressed objects within 2 object streams
+ 23 named destinations out of 1000 (max. 500000)
+ 52331 words of extra memory for PDF output out of 61914 (max. 10000000)
 
