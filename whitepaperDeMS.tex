@@ -5,6 +5,9 @@
 
 \usepackage{lipsum} % Required to insert dummy text. To be removed otherwise
 
+\usepackage{indentfirst}
+\setlength{\parindent}{0.7cm}
+
 %----------------------------------------------------------------------------------------
 %	COLUMNS
 %----------------------------------------------------------------------------------------
@@ -47,7 +50,7 @@
 %	ABSTRACT
 %----------------------------------------------------------------------------------------
 
-\Abstract{Privacy concerns and the high demand of GPU capabilities are the main problems when dealing with real time video processing, security and safety in the industry and growing cities are some of areas that demand the most video processing. The rising power of small computers and the increasing availability and effectivity in machine learning techniques allow to design devices capable of detecting events in real time without the need of internet connectivity and a cloud computing service, saving money and solving the increasing privacy problem for business and government.}
+\Abstract{Privacy concerns and the high demand of GPU capabilities are some of the main problems when dealing with real time video processing, security and safety in the industry and growing cities are some of areas of great demand for such techniques. The rising power of small computers and the increasing availability and effectivity in machine learning techniques allow to design devices capable of detecting events in real time without the need of internet connectivity and a cloud computing service, saving money and solving the increasing privacy problem for business and government. In Deep Micro Systems we achieved to combine several techniques to detect events in real time video and combine the information of several cameras connected to a single device to achieve a good frame rate and a good resolution to capture enough detail in the pictures.}
 
 %----------------------------------------------------------------------------------------
 
@@ -69,16 +72,22 @@
 
 \addcontentsline{toc}{section}{Introduction} % Adds this section to the table of contents
 
-Privacy concerns, low internet conectivity and low computational power are some of the main reasons to improve real time video analisys to work in local devices.
-%------------------------------------------------
+Privacy concerns, low internet conectivity and low computational power are some of the main reasons to improve real time video analisys to work in local devices. The need of internet connectivity or a GPU service are some huge problems that industries and developing countries have to face, increasing costs and not been accesible all the time.
 
+Computer vision has proved to be of great help for industries and governments aimed to increase security and safety at competitive prices, embedded systems have limited power, thus, the need of new computer vision techniques and new hardware for them to handle complex tasks.
+
+Some specific tasks can offer some facilities to real time video monitoring. That is the case of fixed cameras, surveillance cameras and security cameras that can handle only the changind pixels of video to reduce complexity or can make use of computer vision techniques to stabilice the frames in case of a sudden shake of the camera.
+
+Simple computer vision techniques require low computational power and allow the devide to focus machine learning techniques, more heavy, on the main core of the problem to be solved. New, more powerful, small computers are also rising such as Orange Pi, Raspberry Pi 3 B + and even neural sticks like Intel movidius, capable of handling new machine learning techniques.
+
+%------------------------------------------------
 \section{Deep Micro Systems}
 
-Deep Micro Systems is a Bolivian Start up in the field of computer vision and Smart cities. Our mission is to  expand the awareness and knowledge industry and governments to smart cities, providing security, efficiency and generating solutions to critical problems in a measurable and sustainable way.
+Deep Micro Systems is a Bolivian Start up in the field of Computer Vision and Smart cities with the mission to  expand the awareness and knowledge industry and governments to smart cities, providing security, efficiency and generating solutions to critical problems in a measurable and sustainable way.
 
-\paragraph{Road Insecurity} The high numbers in roads accidents is currenlty a great concern for Bolivian government. New technologies are needed in order to reduce this huge numbers. As Internet connectivity in Bolivia is expensive and low efficient compared to our neighbor countries, the need of offline processing is a major concern. In order to achieve this Deep Micro Systems designed an All In One Device capable of detecting traffic Infringements and generate valuable data for city planning.
+\paragraph{Road Insecurity} The high numbers in roads accidents is currenlty a great concern for Bolivian government with 1300 deaths every year, new technologies are needed in order to reduce this huge numbers and help solve the main problem. As Internet connectivity in Bolivia is expensive and low efficient compared to our neighbor countries, the need of offline processing is a major concern. In order to achieve this Deep Micro Systems designed an All-In-One Device capable of detecting traffic Infringements, generate a visual proof of them and generate valuable real time data for city planning.
 
-With the main purpose of generating security in roads and streets, Our camera is capable of detecting events in real time video.
+In order to generate security in roads and streets, our camera is capable of detecting events in real time video, measure and identify if necessary the vehicle violating law.
 
 \paragraph{Applications of computer vision} Besides road infringement detection, Deep Micro Systems works with computer vision, and it's variety of applications in industry and government. Some of other projects for Deep Micro Systems in the short term are:
 
@@ -88,26 +97,40 @@ With the main purpose of generating security in roads and streets, Our camera is
 \item Smart traffic light managing
 \end{itemize}
 
-\subsection{Intelligent devices}
+\paragraph{Industry} Boliviann local business such as Enalbo and IBCO SRL, let us know their interest in detecting real time events such as security infringements of their personal, abnormal functioning of equipment and other failures.
 
-The lowering costs of pocket computers and the increasing power and efficiency of machine learning techniques allow to build small devices capable of solve huge problems in cities and in the industry.
+\subsection{All-In-One devices}
 
-\begin{figure}[hb]\centering
+The lowering costs of pocket computers and the increasing power and efficiency of machine learning techniques allow to build small devices capable of solve huge problems in cities and in the industry without the need of internet connectivity, guaranteeing privacy and cheaper uninterrupted work.
+
+Computer processors such as Cortex-A53 (ARMv8) 64-bit SoC with 1.4GHz and ARM H3 Quad-core Cortex-A7 with 1.6GHz are capable to handle complex tasks and can make use of the new neural chips to get even faster results in real time.
+
+All this components allow to build custom devices for solving specific problems, providing ethernet connectivity, GPS, GSM/GPRS, Bluetooth, WiFi and any kind of sensors to be required.
+
+\begin{figure}[t]\centering
 	\includegraphics[width=\linewidth]{images/lucam_005}
 	\caption{All-In-One computer vision device}
 	\label{fig:device}
 \end{figure}
 
-Currently Lu-Cam, our smart traffic enforcement camera is a 8x9x16 cm device capable, as seen in figure \ref{fig:device}, and it is capable of detecting events in real time video. Rather than getting frame features with convolutional neural networks, different techniques regarding real time fixed video cameras arrise, such as \cite{Cavigelli:2017:CCI:3131885.3131906}, in order to improve efficiency without missing the main objectives of a project.
+Currently Lu-Cam, our smart traffic enforcement camera is a 8x9x16 cm device capable, as seen in figure \ref{fig:device}, and it is capable of detecting events in real time video. Rather than getting frame features with convolutional neural networks, that would take several seconds to complete, we make use of some advantages of their main purpose, extracting only relevant features and making an improvement to less of a tenth of the time it would require. Other techniques continue to appear such as \cite{Cavigelli:2017:CCI:3131885.3131906}, in order to improve efficiency without missing the main objectives of a project.
 
 %------------------------------------------------
 \subsection{Real time monitoring and data analysis}
+
+Such All-In-One Devices holds a huge advantage, allowing to pre process data. For example for real time road monitoring we could get real time histograms of infringements and label them according to our needs as shown in figure \ref{fig:histogram}. Then a central computer can handle data from several devices to make desitions, improving efficiency or automating complex process.
 
 \begin{figure}[ht]\centering
 	\includegraphics[width=\linewidth]{images/histogram}
 	\caption{Real time histogram}
 	\label{fig:histogram}
 \end{figure}
+
+\begin{figure*}[ht]\centering % Using \begin{figure*} makes the figure take up the entire width of the page
+\includegraphics[width=\linewidth]{images/sync}
+\caption{Time synchronization between cameras}
+\label{fig:sync}
+\end{figure*}
 
 %------------------------------------------------
 \input{cto}
