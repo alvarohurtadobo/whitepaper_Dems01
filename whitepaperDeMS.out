@@ -3,12 +3,13 @@
 \BOOKMARK [2][-]{subsection.1.1}{All-In-One devices}{section.1}% 3
 \BOOKMARK [2][-]{subsection.1.2}{Real time monitoring and data analysis}{section.1}% 4
 \BOOKMARK [1][-]{section.2}{On the Edge Computing}{}% 5
-\BOOKMARK [2][-]{subsection.2.1}{Techniques}{section.2}% 6
-\BOOKMARK [3][-]{subsubsection.2.1.1}{Subsubsection}{subsection.2.1}% 7
-\BOOKMARK [3][-]{subsubsection.2.1.2}{Subsubsection}{subsection.2.1}% 8
-\BOOKMARK [3][-]{subsubsection.2.1.3}{Subsubsection}{subsection.2.1}% 9
-\BOOKMARK [1][-]{section.3}{Further applications}{}% 10
-\BOOKMARK [2][-]{subsection.3.1}{Forecasting}{section.3}% 11
-\BOOKMARK [2][-]{subsection.3.2}{Real time simulation}{section.3}% 12
-\BOOKMARK [1][-]{section*.8}{Acknowledgments}{}% 13
-\BOOKMARK [1][-]{section*.9}{References}{}% 14
+\BOOKMARK [2][-]{subsection.2.1}{Our Aproach}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.2}{Hardware and Software description}{section.2}% 7
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Software Description}{subsection.2.2}% 8
+\BOOKMARK [3][-]{subsubsection.2.2.2}{Hardware Description}{subsection.2.2}% 9
+\BOOKMARK [2][-]{subsection.2.3}{Actual real Use Case implementation}{section.2}% 10
+\BOOKMARK [1][-]{section.3}{Further applications}{}% 11
+\BOOKMARK [2][-]{subsection.3.1}{Forecasting}{section.3}% 12
+\BOOKMARK [2][-]{subsection.3.2}{Real time simulation}{section.3}% 13
+\BOOKMARK [1][-]{section*.11}{Acknowledgments}{}% 14
+\BOOKMARK [1][-]{section*.12}{References}{}% 15
