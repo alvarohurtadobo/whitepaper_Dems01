@@ -1,4 +1,4 @@
-\babel@toc {english}{}
+\select@language {english}
 \contentsline {section}{Introduction}{1}{Doc-Start}
 \contentsline {section}{\numberline {1}Deep Micro Systems}{2}{section.1}
 \contentsline {paragraph}{Road Insecurity}{2}{paragraph*.1}
@@ -7,24 +7,12 @@
 \contentsline {subsection}{\numberline {1.1}All-In-One devices}{2}{subsection.1.1}
 \contentsline {subsection}{\numberline {1.2}Real time monitoring and data analysis}{3}{subsection.1.2}
 \contentsline {section}{\numberline {2}On the Edge Computing}{3}{section.2}
-<<<<<<< HEAD
 \contentsline {subsection}{\numberline {2.1}Our Aproach}{3}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Hardware and Software description}{4}{subsection.2.2}
-\contentsline {subsubsection}{\numberline {2.2.1}Software Description}{4}{subsubsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2}Hardware and Software description}{3}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}Software Description}{3}{subsubsection.2.2.1}
 \contentsline {subsubsection}{\numberline {2.2.2}Hardware Description}{4}{subsubsection.2.2.2}
-\contentsline {subsection}{\numberline {2.3}Actual real Use Case implementation}{5}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.3}Actual real Use Case implementation}{4}{subsection.2.3}
 \contentsline {section}{\numberline {3}Further applications}{5}{section.3}
-\contentsline {subsection}{\numberline {3.1}Forecasting}{5}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Real time simulation}{5}{subsection.3.2}
-\contentsline {section}{Acknowledgments}{5}{section*.11}
-\contentsline {section}{References}{5}{section*.12}
-=======
-\contentsline {subsection}{\numberline {2.1}Techniques}{3}{subsection.2.1}
-\contentsline {subsubsection}{\numberline {2.1.1}Subsubsection}{3}{subsubsection.2.1.1}
-\contentsline {subsubsection}{\numberline {2.1.2}Subsubsection}{3}{subsubsection.2.1.2}
-\contentsline {subsubsection}{\numberline {2.1.3}Subsubsection}{4}{subsubsection.2.1.3}
-\contentsline {section}{\numberline {3}Further applications}{4}{section.3}
-\contentsline {section}{Acknowledgments}{4}{section*.9}
-\contentsline {section}{References}{4}{section*.10}
->>>>>>> a2001a18099184c414340ac894f3612dc3bff095
+\contentsline {section}{Acknowledgments}{5}{section*.12}
+\contentsline {section}{References}{6}{section*.13}
 \contentsfinish 
