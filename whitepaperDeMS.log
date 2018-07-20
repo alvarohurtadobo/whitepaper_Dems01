@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  19 JUL 2018 22:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  19 JUL 2018 22:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1043,24 +1043,21 @@ File: images/sync.png Graphic file (type png)
 Package pdftex.def Info: images/sync.png used on input line 130.
 (pdftex.def)             Requested size: 500.484pt x 125.118pt.
  (./cto.tex
-Overfull \hbox (7.40625pt too wide) in paragraph at lines 3--4
-[]\OT1/ptm/m/n/12 (-20) Conventional vi-sual mon-i-tor-ing sys-tems, CCTVs,
+Overfull \hbox (1.28381pt too wide) in paragraph at lines 3--4
+[]\OT1/ptm/m/n/12 (-20) Conventional vi-sual mon-i-tor-ing sys-tems, CCTV,
  []
 
-<images/cicle.png, id=111, 563.10374pt x 554.07pt>
-File: images/cicle.png Graphic file (type png)
- <use images/cicle.png>
-Package pdftex.def Info: images/cicle.png used on input line 19.
+
+LaTeX Warning: Reference `fig:cycle' on page 3 undefined on input line 16.
+
+<images/cycle.png, id=110, 563.10374pt x 554.07pt>
+File: images/cycle.png Graphic file (type png)
+ <use images/cycle.png>
+Package pdftex.def Info: images/cycle.png used on input line 19.
 (pdftex.def)             Requested size: 169.69147pt x 166.96626pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Overfull \hbox (3.98485pt too wide) in paragraph at lines 28--29
-\OT1/ptm/m/n/12 (-20) pre-sen-ta-tion ac-cord-ing to ini-tial re-quiere-ments. 
-
- []
 
 
 Package Fancyhdr Warning: \headheight is too small (11.0pt): 
@@ -1073,7 +1070,7 @@ Overfull \hbox (0.38554pt too wide) in paragraph at lines 49--50
 []\OT1/ptm/m/n/12 (-20) We also de-velop cus-tom printed cir-cuit boards
  []
 
-<images/hardware_desc.png, id=122, 1022.82124pt x 560.0925pt>
+<images/hardware_desc.png, id=121, 1022.82124pt x 560.0925pt>
 File: images/hardware_desc.png Graphic file (type png)
 
 <use images/hardware_desc.png>
@@ -1095,7 +1092,7 @@ Overfull \hbox (9.63672pt too wide) in paragraph at lines 78--79
 chemat-
  []
 
-<images/lucam.png, id=124, 896.34875pt x 528.97626pt>
+<images/lucam.png, id=123, 896.34875pt x 528.97626pt>
 File: images/lucam.png Graphic file (type png)
  <use images/lucam.png>
 Package pdftex.def Info: images/lucam.png used on input line 81.
@@ -1107,7 +1104,7 @@ Package Fancyhdr Warning: \headheight is too small (11.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4 <./images/sync.png> <./images/cicle.png> <./images/hardware_desc.png>]
+[4 <./images/sync.png> <./images/cycle.png> <./images/hardware_desc.png>]
 <images/online.png, id=138, 716.6775pt x 312.16624pt>
 File: images/online.png Graphic file (type png)
  <use images/online.png>
@@ -1120,15 +1117,14 @@ File: images/data.jpg Graphic file (type jpg)
 Package pdftex.def Info: images/data.jpg used on input line 141.
 (pdftex.def)             Requested size: 242.41745pt x 126.14879pt.
 
-(./whitepaperDeMS.bbl
 
 Package Fancyhdr Warning: \headheight is too small (11.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[5 <./images/lucam.png> <./images/online.png> <./images/data.jpg>])
-
+[5 <./images/lucam.png> <./images/online.png> <./images/data.jpg>]
+(./whitepaperDeMS.bbl) 
 AED: lastpage setting LastPage
 
 Package Fancyhdr Warning: \headheight is too small (11.0pt): 
@@ -1145,17 +1141,21 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 171.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 171.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 171.
 Package rerunfilecheck Info: File `whitepaperDeMS.out' has not changed.
-(rerunfilecheck)             Checksum: E5B595E5F1A90D80ADA59883B0CC6705;852.
+(rerunfilecheck)             Checksum: 5AAD340B2F9745434DE357F20BC04AA0;853.
+
+
+LaTeX Warning: There were undefined references.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 171.
  ) 
 Here is how much of TeX's memory you used:
- 11839 strings out of 493029
- 174853 string characters out of 6136234
- 411723 words of memory out of 5000000
- 14920 multiletter control sequences out of 15000+600000
- 63944 words of font info for 241 fonts, out of 8000000 for 9000
+ 11836 strings out of 493029
+ 174831 string characters out of 6136234
+ 411719 words of memory out of 5000000
+ 14921 multiletter control sequences out of 15000+600000
+ 64964 words of font info for 239 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,11n,51p,881b,461s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,11n,51p,875b,463s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts
@@ -1163,10 +1163,10 @@ f-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts
 elvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on whitepaperDeMS.pdf (6 pages, 2204824 bytes).
+Output written on whitepaperDeMS.pdf (6 pages, 2209344 bytes).
 PDF statistics:
- 192 PDF objects out of 1000 (max. 8388607)
- 147 compressed objects within 2 object streams
+ 191 PDF objects out of 1000 (max. 8388607)
+ 146 compressed objects within 2 object streams
  31 named destinations out of 1000 (max. 500000)
  52369 words of extra memory for PDF output out of 61914 (max. 10000000)
 
