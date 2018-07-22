@@ -1,18 +1,17 @@
 \select@language {english}
 \contentsline {section}{Introduction}{1}{Doc-Start}
 \contentsline {section}{\numberline {1}Deep Micro Systems}{2}{section.1}
-\contentsline {paragraph}{Road Insecurity}{2}{paragraph*.1}
+\contentsline {paragraph}{Road Security}{2}{paragraph*.1}
 \contentsline {paragraph}{Applications of computer vision}{2}{paragraph*.2}
 \contentsline {paragraph}{Industry}{2}{paragraph*.3}
 \contentsline {subsection}{\numberline {1.1}All-In-One devices}{2}{subsection.1.1}
-\contentsline {subsection}{\numberline {1.2}Real time monitoring and data analysis}{3}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.2}Real time monitoring and data analysis}{2}{subsection.1.2}
 \contentsline {section}{\numberline {2}On the Edge Computing}{3}{section.2}
 \contentsline {subsection}{\numberline {2.1}Our Approach}{3}{subsection.2.1}
 \contentsline {subsection}{\numberline {2.2}Hardware and Software description}{3}{subsection.2.2}
 \contentsline {subsubsection}{\numberline {2.2.1}Software Description}{3}{subsubsection.2.2.1}
-\contentsline {subsubsection}{\numberline {2.2.2}Hardware Description}{4}{subsubsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2}Hardware Description}{3}{subsubsection.2.2.2}
 \contentsline {subsection}{\numberline {2.3}Actual real Use Case implementation}{4}{subsection.2.3}
 \contentsline {section}{\numberline {3}Further applications}{5}{section.3}
-\contentsline {section}{Acknowledgments}{6}{section*.12}
-\contentsline {section}{References}{6}{section*.13}
+\contentsline {section}{Acknowledgments}{5}{section*.12}
 \contentsfinish 
